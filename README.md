@@ -20,7 +20,7 @@ An all-in-one AI-powered career platform: ATS resume analysis, AI resume optimiz
 ## 🛠 Tech Stack
 
 - **Frontend**: React 18, Vite, lucide-react, jsPDF, pdfjs-dist
-- **Backend**: Python 3.11+, FastAPI, MySQL, Google Gemini 2.5 Flash
+- **Backend**: Python 3.11+, FastAPI, MySQL, Google Gemini 2.5 Flash, Emaijs
 - **Auth**: Token-based sessions (7-day expiry)
 
 ---
