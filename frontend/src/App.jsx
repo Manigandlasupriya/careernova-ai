@@ -18,7 +18,7 @@ export const NavContext  = createContext(null);
 export const useAuth = () => useContext(AuthContext);
 export const useNav  = () => useContext(NavContext);
 
-export const API = "http://127.0.0.1:8000";
+export const API = import.meta.env.VITE_API_URL || "http://127.0.0.1:8000";
 
 const NAV = [
   { id: "dashboard",  label: "Dashboard",    Icon: LayoutDashboard,    desc: "Overview" },
