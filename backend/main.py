@@ -2,6 +2,8 @@
 CareerNova AI — FastAPI Backend v5
 Rate Limit Fix: Rotating multiple Gemini API keys (Solution 2)
 """
+
+
 from contextlib import asynccontextmanager
 from fastapi import FastAPI, Depends, HTTPException, Header
 from fastapi.middleware.cors import CORSMiddleware
